@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 15px;
+}
+
+body .container .container1 {
+  height: 450px;
+  width: 10px;
+  background-color: silver;
+}
+
+body .container .container2 .upper {
+  height: 50px;
+  width: 200px;
+  background-color: yellow;
+}
+
+body .container .container2 .lower {
+  height: 50px;
+  width: 200px;
+  background-color: red;
+}
+
+body .content1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 200px;
+}
+
+body .content1 .upper1 {
+  height: 50px;
+  width: 200px;
+  background-color: brown;
+}
+
+body .content2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 200px;
+}
+
+body .content2 .lower1 {
+  height: 50px;
+  width: 400px;
+  background-color: brown;
+}
+
+/*# sourceMappingURL=style.css.map */
